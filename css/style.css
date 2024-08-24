@@ -9,10 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
+/* body {
     background: linear-gradient(to right, #101c81, #2a6ba3);
     min-height: 100vh;
-}
+} */
 
 .owl-carousel .owl-item {
     transition: all 0.3s ease-in-out;
@@ -38,10 +38,10 @@ body {
     position: absolute;
     bottom: -20px;
     left: 33%;
-    color: #101c81;
+    color: #000000;
     font-size: 1.1rem;
     font-weight: 600;
-    background-color: aquamarine;
+    background-color: #f9ab30;
     padding: 0.3rem 0.4rem;
     border-radius: 5px;
     box-shadow: 2px 3px 15px #3c405a;
@@ -65,7 +65,7 @@ body {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-    height: 20px;
+    height: 10px;
     background: #000000 !important;
     border-radius: 2px !important;
     opacity: 0.8;
@@ -73,10 +73,10 @@ body {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    height: 13px;
+    height: 25px;
     width: 13px;
     opacity: 1;
-    transform: translateY(2px);
+    transform: translateY(1px);
     background: #f9ab30 !important;
 }
 
