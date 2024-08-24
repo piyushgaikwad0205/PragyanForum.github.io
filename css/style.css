@@ -73,7 +73,7 @@
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    height: 25px;
+    height: 50px;
     width: 13px;
     opacity: 1;
     transform: translateY(1px);
@@ -131,6 +131,20 @@ justify-content:  center;
     animation-duration: 4s;
     /* animation-delay:4s ; */
 	}
+  
+   @media (max-width: 500px) {
+    h5#page-logo {
+      font: bold 447% 'Arial', sans-serif;
+      color: white;
+      animation: clip-path-reveal-1 4s linear infinite alternate;
+      /* animation-delay: 5s; */
+      animation-duration: 4s;
+      /* animation-delay:4s ; */
+    }
+
+
+    
+  }
 }
 
 @keyframes line-animation {
